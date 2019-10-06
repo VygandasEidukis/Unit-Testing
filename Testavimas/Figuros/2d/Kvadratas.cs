@@ -9,6 +9,8 @@ namespace Testavimas
         public double x { get; set; }
         public Kvadratas(double x)
         {
+            if (x <= 0)
+                throw new Exception("Number is too small");
             this.x = x;
         }
 

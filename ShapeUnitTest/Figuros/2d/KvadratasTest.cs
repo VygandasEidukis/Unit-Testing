@@ -31,5 +31,18 @@ namespace ShapeUnitTest.Figuros._2d
 
             Assert.Equal(expected, actual);
         }
+
+        [Theory]
+        [InlineData(0)]
+        [InlineData(-20)]
+        public void createKvadratas_ShouldFail(int value)
+        {
+            Assert.Throws<Exception>(new Action(
+                () =>
+                {
+                    var kvadratas = new Kvadratas(value);
+                }
+                ));
+        }
     }
 }

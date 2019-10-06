@@ -40,5 +40,18 @@ namespace ShapeUnitTest.Figuros._3d
 
             Assert.Equal(expected, actual);
         }
+        [Theory]
+        [InlineData(0)]
+        [InlineData(-20)]
+        public void CreateStaciakampis_ShouldFail(int value)
+        {
+            Assert.Throws<Exception>(new Action(
+                () =>
+                {
+                    var kubas = new Kubas(value);
+                }
+                ));
+        }
+
     }
 }

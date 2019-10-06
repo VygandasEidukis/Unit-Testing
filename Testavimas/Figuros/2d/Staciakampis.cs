@@ -11,6 +11,8 @@ namespace Testavimas
 
         public Staciakampis(double a, double b)
         {
+            if (a <= 0 || b <= 0)
+                throw new Exception("Number is too small");
             this.a = a;
             this.b = b;
         }

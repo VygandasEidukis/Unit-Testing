@@ -10,6 +10,8 @@ namespace Testavimas
         public double r { get; set; }
         public Circle(double r)
         {
+            if (r <= 0)
+                throw new Exception("Number is too small");
             this.r = r;
         }
 

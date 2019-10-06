@@ -1,0 +1,11 @@
+C:\Users\andri\Desktop\New folder (4)\Unit-Testing-master\Testavimas\bin\Debug\netcoreapp2.1\Testavimas.deps.json
+C:\Users\andri\Desktop\New folder (4)\Unit-Testing-master\Testavimas\bin\Debug\netcoreapp2.1\Testavimas.runtimeconfig.json
+C:\Users\andri\Desktop\New folder (4)\Unit-Testing-master\Testavimas\bin\Debug\netcoreapp2.1\Testavimas.runtimeconfig.dev.json
+C:\Users\andri\Desktop\New folder (4)\Unit-Testing-master\Testavimas\bin\Debug\netcoreapp2.1\Testavimas.dll
+C:\Users\andri\Desktop\New folder (4)\Unit-Testing-master\Testavimas\bin\Debug\netcoreapp2.1\Testavimas.pdb
+C:\Users\andri\Desktop\New folder (4)\Unit-Testing-master\Testavimas\obj\Debug\netcoreapp2.1\Testavimas.csprojAssemblyReference.cache
+C:\Users\andri\Desktop\New folder (4)\Unit-Testing-master\Testavimas\obj\Debug\netcoreapp2.1\Testavimas.csproj.CoreCompileInputs.cache
+C:\Users\andri\Desktop\New folder (4)\Unit-Testing-master\Testavimas\obj\Debug\netcoreapp2.1\Testavimas.AssemblyInfoInputs.cache
+C:\Users\andri\Desktop\New folder (4)\Unit-Testing-master\Testavimas\obj\Debug\netcoreapp2.1\Testavimas.AssemblyInfo.cs
+C:\Users\andri\Desktop\New folder (4)\Unit-Testing-master\Testavimas\obj\Debug\netcoreapp2.1\Testavimas.dll
+C:\Users\andri\Desktop\New folder (4)\Unit-Testing-master\Testavimas\obj\Debug\netcoreapp2.1\Testavimas.pdb

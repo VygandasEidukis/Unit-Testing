@@ -29,5 +29,18 @@ namespace ShapeUnitTest.Figuros._2d
 
             Assert.Equal(expected, actual);
         }
+
+        [Theory]
+        [InlineData(0, 0)]
+        [InlineData(-20, 0)]
+        public void CreateStaciakampis_ShouldFail(int value, int b)
+        {
+            Assert.Throws<Exception>(new Action(
+                () =>
+                {
+                    var trikampis = new Trikampis(value, b);
+                }
+                ));
+        }
     }
 }

@@ -40,5 +40,18 @@ namespace ShapeUnitTest.Figuros._3d
 
             Assert.Equal(expected, actual);
         }
+
+        [Theory]
+        [InlineData(0, 0)]
+        [InlineData(-20, 0)]
+        public void CreateStaciakampis_ShouldFail(int value, int b)
+        {
+            Assert.Throws<Exception>(new Action(
+                () =>
+                {
+                    var kugis = new Kugis(value, b);
+                }
+                ));
+        }
     }
 }
